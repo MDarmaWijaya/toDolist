@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TO DO List</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- Login -->
+  <div class="card text-center w-75 m-auto" id="login">
+    <div class="card-header">
+      Login
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Please, enter your Name</h5>
+      <input class="form-control form-control-md  offset-md-3 offset-lg-3" type="text" placeholder="Enter your Name..."
+        aria-label=".form-control-sm example" id="nameUser">
+      <a href="#" class="btn btn-primary mt-3" id="butLogin">Input</a>
+    </div>
+    <div class="card-footer text-muted">
+      To Do List
+    </div>
+  </div>
+  <!-- End login -->
+
+
+
+  <div class="hide" id="hide">
+    <div class="container-fluid bg-dark">
+      <div class="container p-1 d-sm-flex">
+        <h1 class="text-success p-2 w-100" id="nameTag"></h1>
+        <figure class="text-center p-2 w-100">
+          <blockquote class="blockquote text-light p-2">
+            <p>Don't waste your time on useless things.</p>
+          </blockquote>
+          <figcaption class="blockquote-footer">
+            <cite title="Source Title">Darma</cite>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="row mt-5 bg-dark p-3 mb-5 card">
+        <h3 class="text-light p-3 p-sm-3">Whats Your Journey ?</h3>
+        <div class="input-group mb-3 m-auto d-flex flex-sm-row p-3">
+          <input type="text" id="text-user" class="form-control flex-sm-grow-1" placeholder="Input Your Journey">
+          <button type="button" class="btn btn-success" id="input">Input</button>
+        </div>
+
+        <ol class="list-group list-group-numbered" id="parentList">
+
+        </ol>
+
+      </div>
+    </div>
+    <nav class="nav nav-pill d-flex w-100 bg-dark position-fixed bottom-0 d-flex justify-content-center">
+      <a class="flex-sm-fill text-sm-center nav-link text-secondary" aria-current="page" href="#"> &copy M. Darma Wijaya
+        Jul 2022</a>
+    </nav>
+  </div>
+  </div>
+  </div>
+
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
